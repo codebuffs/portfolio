@@ -1,5 +1,4 @@
-		/* top navbar */
-		.navbar-fixed-top
+.navbar-fixed-top
 		{
 			height:120px; 
 			background-color:#e7cbe8; 
@@ -20,7 +19,6 @@
 		{
 			 color:#f190f6;
 		}
-		/* Banner */
 		#intro
 		{
 			background-color:#e7cbe8;
@@ -31,12 +29,19 @@
 			opacity:0.9;
 			box-shadow:0px 1px 4px gray;
 		}
-		/* Home */
 		#home
 		{
 			background-color:#f5ebf5;
+			margin-bottom:0px;
 		}
 		h1
+		{
+			color:#b367b6;
+			font-family:Lucida Calligraphy;
+			font-weight:bold;
+			text-align:center;
+		}
+		h2
 		{
 			color:#b367b6;
 			font-family:Lucida Calligraphy;
@@ -47,14 +52,28 @@
 		{
 			font-family:Monotype Corsiva; 
 			font-size:30px;
-			color:#f69bfa;
+			color:#f190f6;
+			text-align:center;
 		}
-		/* Footer */
+		#logo1
+		{
+			margin-left:340px;
+		}
+		#logo2
+		{
+			float:right; 
+			margin-right:350px;
+		}
+		#logo3
+		{
+			margin-left:340px;
+		}
 		.navbar-default
 		{
 			background-color:#e7cbe8; 
 			border-top-color:#e7cbe8; 
 			opacity:0.9;
+			padding:0px;
 		}
 		.fa-facebook
 		{
